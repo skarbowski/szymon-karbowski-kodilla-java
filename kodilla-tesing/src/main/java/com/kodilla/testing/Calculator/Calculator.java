@@ -1,19 +1,19 @@
 package com.kodilla.testing.Calculator;
 
 public class Calculator {
-    public Integer addAToB(int a, int b) {
+    public double addAToB(double a, double b) {
         return a + b;
     }
 
-    public Integer substractAFromB(int a, int b) {
+    public double substractAFromB(double a, double b) {
         return a - b;
     }
 
     public static void main(String[] args) {
 
-        Calculator Calculator = new Calculator();
+        Calculator calculator = new Calculator();
 
-        Integer result = Calculator.substractAFromB(25, 245);
+        double result = calculator.addAToB(2.5, 2.45);
         System.out.println("Its Work and result is : " + result);
 
     }
