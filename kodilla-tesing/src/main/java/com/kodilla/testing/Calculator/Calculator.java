@@ -16,5 +16,7 @@ public class Calculator {
         double result = calculator.addAToB(2.5, 2.45);
         System.out.println("Its Work and result is : " + result);
 
+        double results = calculator.substractAFromB(2.5, 2.0);
+       System.out.println("its work and result is : " + results);
     }
 }
